@@ -3,7 +3,7 @@ var diceNum2 = Math.floor(Math.random() * 6)+1;
 
 
 $('.img1').attr("src", "./images/dice"+diceNum1.toString()+".png");
-$('.img2').attr("src", "./images/dice1"+diceNum2.toString()+".png");
+$('.img2').attr("src", "./images/dice"+diceNum2.toString()+".png");
 
 if (diceNum1 > diceNum2) {
     $('h1').text('⚐ Player 1 Wins!')
